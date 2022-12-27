@@ -1,0 +1,64 @@
+.taskContainer {
+  display: flex;
+  background: var(--gray-500);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  border: 1px solid var(--gray-400);
+  gap: 10px;
+
+  justify-content: space-between;
+}
+
+.taskContainer p {
+  font-size: 0.85rem;
+  color: var(--gray-100);
+  font-weight: 400;
+}
+
+.pContainer {
+  width: 89%;
+  overflow-wrap: break-word;
+  overflow: hidden;
+}
+
+.checkButton {
+  all: unset;
+  cursor: pointer;
+  color: var(--purple);
+  align-self: flex-start;
+}
+
+.uncheckedButton {
+  color: var(--blue) !important;
+}
+
+.uncheckedButton:hover {
+  color: var(--blue-dark) !important;
+  transition: 0.2s;
+}
+
+.checkedButton:hover {
+  color: var(--purple-dark);
+  transition: 0.2s;
+}
+
+.trash {
+  color: var(--gray-300);
+  align-self: flex-start;
+  padding: 6px;
+  box-sizing: initial;
+}
+
+.trashButton {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.trash:hover {
+  background: var(--gray-400);
+  color: var(--danger);
+  border-radius: 6px;
+}

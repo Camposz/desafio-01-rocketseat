@@ -1,0 +1,20 @@
+.emptyList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 64px;
+}
+
+.emptyList p {
+  color: var(--gray-300);
+}
+
+.pBold {
+  font-weight: bold;
+}
+
+.clipBoard {
+  color: var(--gray-400);
+  margin-bottom: 16px;
+}

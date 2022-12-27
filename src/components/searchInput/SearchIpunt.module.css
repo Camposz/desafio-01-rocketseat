@@ -1,0 +1,14 @@
+.searchInput {
+  all: unset;
+  background-color: var(--gray-500);
+  padding: 16px;
+  border-radius: 8px;
+  color: var(--gray-100);
+  font-size: 1rem;
+  border: 1px solid var(--gray-700);
+  flex: 1;
+}
+
+.searchInput:focus {
+  border: 1px solid var(--purple);
+}

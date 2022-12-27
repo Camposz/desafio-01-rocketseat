@@ -1,0 +1,13 @@
+.header {
+  background: var(--gray-700);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.searchInput {
+  background-color: aqua;
+}

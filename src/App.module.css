@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  width: 72%;
+}
+
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+.taskHeader span {
+  font-weight: bold;
+  color: var(--blue);
+  font-size: 0.8rem;
+}
+
+.taskList {
+  margin-top: 24px;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+}
+
+.spanFinished {
+  color: var(--purple) !important;
+}
