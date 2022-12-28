@@ -7,6 +7,7 @@
   border: 1px solid var(--gray-400);
   gap: 10px;
 
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -14,6 +15,8 @@
   font-size: 0.85rem;
   color: var(--gray-100);
   font-weight: 400;
+  display: flex;
+  align-items: center;
 }
 
 .pContainer {
@@ -26,7 +29,6 @@
   all: unset;
   cursor: pointer;
   color: var(--purple);
-  align-self: flex-start;
 }
 
 .uncheckedButton {
